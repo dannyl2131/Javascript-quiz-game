@@ -1,3 +1,39 @@
 body {
-    background-color: palegreen;
+    background-color: lemonchiffon;
+    margin: 0;
+}
+
+.container:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 800px;
+    background-color: paleturquoise;
+}
+
+section {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: greenyellow;
 }
