@@ -9,6 +9,11 @@ body {
     align-items: center;
 }
 
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
 header {
     height: 100px;
     margin-left: 10px;
@@ -30,7 +35,7 @@ div {
     align-items: center;
     width: 100vw;
     height: 500px;
-    background-color: paleturquoise;
+    /* background-color: paleturquoise; */
 }
 
 section {
@@ -42,7 +47,7 @@ section {
     height: 80%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: cadetblue;
+    background-color: rgb(152, 164, 164);
 }
 
 section h1{
@@ -60,4 +65,42 @@ section button {
     padding: 10px;
     font-size: x-large;
     margin-bottom: 50px;
+}
+
+form {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    font-size: x-large;
+    padding: 10px 5px 10px 5px;
+}
+
+ul {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+li {
+    font-size: x-large;
+    list-style-type: none;
+    background-color: brown;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#scoreList:hover {
+    cursor: pointer;
+}
+
+#startButton:hover {
+    cursor: pointer;
 }
